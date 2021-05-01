@@ -1,0 +1,328 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*----------Navigation--------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar 
+{
+	background-image: linear-gradient(to right, #FF8C00,#FF8C00);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	font-family: Amiri;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+/*-----------banner section---------*/
+#banner
+{
+	background-image: linear-gradient(to right, #FF8C00,#FF8C00);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.bottom-img
+{
+	width: 100%;
+}
+
+/*------services section--------*/
+#services
+{
+	padding: 80px 0;
+}
+.service-img
+{
+	width: 100px;
+	margin-top: 2px;
+}
+.services
+{
+	padding: 20px;
+}
+.services h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.title::before
+{
+	content: '';
+	background: #FF8C00;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto; 
+	display: block;
+	transform: translateY(63px);
+}
+.title::after
+{
+	content: '';
+	background: #FF8C00;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px; 
+	display: block;
+	transform: translateY(8px);
+}
+/*---------about------*/
+#about-us h1
+{
+  text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+#about-us h1:after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+#about-us h1 span
+{
+	background: #fff;
+}
+ #about-us p
+{
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: amiri;
+
+}
+.outer-container
+{
+	
+	width: 90%;
+	height: 90%;
+	background-image:url(img/stati.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/*--------Team Members-------*/
+#team
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+h1::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.profile-pic
+{
+	margin-top: 25px;
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	margin: 20px;
+}
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h3
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}
+.profile-pic h4
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	
+}
+.profile-pic p
+{
+	font-size: 16px;
+	font-family: amiri;
+}
+
+/*---------Clients------*/
+#clients
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/clients.jpg);
+	background-size: cover;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: amiri;
+	font-size: 25px;
+	
+}
+#clients h1
+{
+    
+	color: #efefef !important;	
+}
+
+#clients .row
+{
+	margin-top: 30px
+}
+
+.col-md-4
+{
+	margin: 40px auto;
+}
+.profile
+{
+	padding: 70px 10px 10px;
+	background-color: #007bff;
+
+}
+.user
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.profile img
+{
+	top: -60px;
+	position:absolute;
+	left: calc(50% - 60px);
+	border: 10px solid #fff;
+}
+
+.profile h3
+{
+	font-size: 20px;
+	margin-top: 15px;
+	
+}
+#clients span
+{
+	font-size: 12px;
+	color: #333;
+}
+blockquote
+{
+	font-size: 16px;
+}
+blockquote::after
+{
+	content: '\94';
+	font-size: 50px;
+	color: #007bff;
+	position: relative;
+	line-height: 10px;
+	bottom: -15px;
+	right: 5px;
+}
+.profile:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+/*----------Get in Touch------*/
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-group
+{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder
+{
+	color: #999 !important;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+/*--------Footer--------*/
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+	text-align: center;
+}
